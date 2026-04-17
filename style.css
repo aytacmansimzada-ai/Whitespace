@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    height: 100vh;
+    background-color: #043873;
+    
+}
+
+.header {
+    
+    padding: 16px 0;
+}
+.container {
+    max-width: 1480px;
+    
+    background-color: #043873;
+    margin: 0 auto;
+}
+.logo {
+    width: 37px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.links {
+    display: flex;
+    gap : 71px;
+}
+
+
+.links a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+
+}
+.buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.yellowbutton
+{
+    background-color: rgb(243, 243, 24);
+    width: 126px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+}
+.bluebutton
+{
+    background-color: rgb(77, 163, 239);
+    width: 227px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.nav {
+    display: flex;
+    gap: 15px 95px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero-section {
+    height: 829px;
+    background-color: #043873;
+    display: flex;
+    align-items: center;
+}
+.textblock {
+        max-width: 656px;
+
+    
+}
+.textblock h2 {
+    color: white;
+    font-size: 64px;
+    max-width: 656px;
+    
+}
+.textblock p {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 24px 0 64px;
+}
+.imgblock {
+    width: 824px;
+    height: 529px;
+    background-color: skyblue;
+    
+}
+.hero-section .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+}
