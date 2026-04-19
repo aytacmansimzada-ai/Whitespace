@@ -18,7 +18,7 @@ body{
 .container {
     max-width: 1480px;
     
-    background-color: #043873;
+    
     margin: 0 auto;
 }
 .logo {
@@ -112,4 +112,45 @@ header .container {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px 0px;
+}
+.project-management {
+    background-color: white;
+    height: 760px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.project-management .container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.project-management h2 {
+    z-index: 2;
+    position: relative;
+}
+.element {
+    position: absolute;
+    bottom: -10px;
+    z-index: 1;
+}
+
+.heading
+{
+    position: relative;
+}
+.project-management .textblock
+{
+   max-width: 672px;
+}
+.project-management h2 , .project-management p
+{
+    color: #212529
+} 
+.project-management .imgblock
+{
+   width: 748px; 
 }
