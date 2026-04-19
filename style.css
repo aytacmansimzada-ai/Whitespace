@@ -113,7 +113,7 @@ header .container {
     flex-wrap: wrap;
     gap: 20px 0px;
 }
-.project-management {
+.project-management , .work-together {
     background-color: white;
     height: 760px;
     display: flex;
@@ -146,11 +146,27 @@ header .container {
 {
    max-width: 672px;
 }
-.project-management h2 , .project-management p
+.project-management h2 , .project-management p ,.work-together h2 ,.work-together p
 {
     color: #212529
 } 
 .project-management .imgblock
 {
    width: 748px; 
+}
+.work-together .textblock{
+    max-width: 670px;
+
+}
+.work-together .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.element{
+    left: 150px;
+    bottom: -20px;
+    position: absolute;
+    z-index: 1;
 }
