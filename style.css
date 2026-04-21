@@ -164,9 +164,177 @@ header .container {
     flex-wrap: wrap;
     text-align: center;
 }
+.work-together h2{
+    position: relative;
+    z-index: 2;
+}
 .element{
     left: 150px;
     bottom: -20px;
     position: absolute;
     z-index: 1;
+}
+.choose-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 1272px;
+}
+.choose-plan h2 , .choose-plan p{
+    color: black;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    max-width: 979px; 
+    margin: 0 auto;
+}
+.choose-plan .heading{
+    width: 979px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.choose-plan .free , .choose-plan .organization{
+    width: 472px;
+    height: 634px;
+    padding: 40px;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+
+}
+
+.choose-plan .price{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 25px;
+}
+.free .price span:nth-child(1) , .organization .price span:nth-child(1){
+    font-size: 24px;
+    font-weight: 700;
+    color: #212529;
+}
+.free .price span:nth-child(2) , .organization .price span:nth-child(2){
+    font-size: 36px;
+    font-weight: 800;
+    color: #212529;
+}
+.free .price span:nth-child(3) , .organization .price span:nth-child(3){
+    font-size: 18px;
+    font-weight: 600;
+    color: #212529;
+}
+.choose-plan .free-text , .personal .personal-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.choose-plan p{
+    color: #212529;
+    position: relative;
+    font-size: 16px;
+}
+.choose-plan .vector{
+    width: 19px;
+    height: 19px;
+}
+
+.item{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.choose-plan .container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-plan .textblock{
+    max-width: 1480px;
+    display: flex;
+    align-items: center;
+
+}
+.choose-plan .element{
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    left: 450px;
+    bottom:  50px;
+    z-index: 1;
+}
+.choose-plan .textblock p{
+    width: 900px;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+    
+}
+.choose-plan .pricebutton{
+    width: 166px;
+    height: 51px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #FFE492;
+    border-radius: 8px;
+}
+.subscribe{
+    display: flex;
+    gap: 32px   ;
+    align-items: center;
+    text-align: left;
+}
+.choose-plan .personal{
+    padding: 40px;
+    width: 471px;
+    height: 761px;
+    background-color: #043873;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    border-radius:  10px;
+
+
+}
+.personal .price span:nth-child(1){
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.personal .price span:nth-child(2){
+    font-size: 36px;
+    font-weight: 800;
+    color: #FFE492;
+}
+.personal .price span:nth-child(3){
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.personal p{
+    justify-content: left;
+    color: #ffffff;
+
+}
+.personal .personalbutton{
+    width: 166px;
+    height: 51px;
+    font-size: 18px;
+    background-color: #4F9CF9;
+    border: 1px solid #4F9CF9;
+    border-radius: 8px;
+    color: #ffffff;
 }
